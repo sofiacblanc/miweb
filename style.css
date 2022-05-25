@@ -132,31 +132,30 @@ h1 {
 
 
 
-.parteuno{
-    min-width: 900px;
-    margin-left: 80px;
-    padding: 90px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(370px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    padding: 10px;
+    justify-content: ;
+ 
 }
 
-.parteuno a{
-    width: 100%;
-    height: auto;
-    
-}
 
-.parteuno b{
-    height: auto;
-    width: 100%
+.grid-item{
+display: flex;
+align-items: center;
+justify-content: 65px;
 
 }
 
-.parteunoc {
-    height: auto;
-    width: 100%;
-}
 
+.grid-video{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(370px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    padding: 10px;
+}
 
 
 
